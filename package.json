@@ -1,0 +1,14 @@
+{
+  "name": "wtr-coverage-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "web-test-runner --coverage \"*test.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@web/test-runner": "^0.13.3"
+  }
+}

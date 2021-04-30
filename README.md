@@ -2,7 +2,9 @@
 
 This repro shows how methods defined on a class with the arrow `=>` syntax break the coverage report in WTR in certain situations.
 
-To reproduce `npm test`, and open `coverage/lcov-report/bad.js.html`/
+For issues https://github.com/modernweb-dev/web/issues/689 and https://github.com/istanbuljs/v8-to-istanbul/issues/121
+
+To reproduce run `npm install` then `npm test`, and open `coverage/lcov-report/bad.js.html`.
 
 Instead of coverage for the affected file, one will see:
 
